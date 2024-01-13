@@ -1,0 +1,39 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<h1>CATEGORY LIST</h1>
+<br />
+@using (Html.BeginForm())
+{
+    <p>
+        Category Name : @Html.TextBox("p")
+        <input type="submit" value="Find" />
+    </p>
+}
+<table class="table table-bordered">
+    <tr>
+        <th>ID</th>
+        <th>Category Name</th>
+        <th>Status</th>
+        <th>Delete</th>
+        <th>Update</th>
+    </tr>
+
+    @foreach (var x in Model)
+    {
+        <tr>
+            <td>@x.CategoryID</td>
+            <td>@x.CategoryName</td>
+            <td>@x.Status</td>
+            <td> <a asp-action="CategoryDelete" asp-controller="Category" asp-route-id="@x.CategoryID" class="btn btn-danger">Delete</a>  </td>
+            <td> <a asp-action="CategoryGet" asp-controller="Category" asp-route-id="@x.CategoryID" class="btn btn-success">Update</a>  </td>
+        </tr>
+    }
+</table>
+
+<a asp-controller="Category" asp-action="CategoryAdd" class="btn btn-primary">New Category</a>
+

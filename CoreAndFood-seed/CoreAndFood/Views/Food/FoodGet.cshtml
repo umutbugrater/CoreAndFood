@@ -1,0 +1,35 @@
+﻿@model Food
+@{
+    ViewData["Title"] = "FoodGet";
+}
+
+<h1>Food Add Page</h1>
+<br />
+@using (Html.BeginForm("FoodUpdate", "Food", FormMethod.Post))
+{
+    @Html.Label("Food ID")
+    @Html.TextBoxFor(z=>z.FoodID, new {@class="form-control"})
+    <br />
+    @Html.Label("Food Name")
+    @Html.TextBoxFor(z=>z.Name, new {@class="form-control"})
+    <br />
+    @Html.Label("Stock")
+    @Html.TextBoxFor(z=>z.Stock, new {@class="form-control"})
+    <br />
+    @Html.Label("Price")
+    @Html.TextBoxFor(z=>z.Price, new {@class="form-control"})
+    <br />
+    @Html.Label("Image URL")
+    @Html.TextBoxFor(z=>z.ImageURL, new {@class="form-control"})
+    <br />
+    @Html.Label("Category")
+    @* @Html.TextBoxFor(z=>z.CategoryID, new {@class="form-control"}) *@
+    @Html.DropDownListFor(z=>z.CategoryID,(List<SelectListItem>)@ViewBag.v1 ,new {@class="form-control"})
+    <br />
+    @Html.Label("Description")
+    @Html.TextAreaFor(z=>z.Description, new {@class="form-control"})
+    <br />
+    <button class="btn btn-primary">Update</button>
+}
+
+

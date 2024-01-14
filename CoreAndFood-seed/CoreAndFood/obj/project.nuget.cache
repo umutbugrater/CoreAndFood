@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PtUSP1WuFLSBP9UeBnkjJ/qmSR76JAydXxMvPkbPG4fGETbAGsIWEG7BlD0NLWg2Dh8BfgTGm4P2wnAgxA3rfg==",
+  "dgSpecHash": "fXXraNJA8nqmEP6V8pBqwwjU1tXeLf2r9qjjBwZoPpqQ3GC1jbcSdNgaLfhBkA0HLtYOYXnTzDgRTDjI+ajcRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\umutb\\source\\repos\\MCSD\\Youtube_MuratYücedağ\\CoreAndFood\\CoreAndFood-seed\\CoreAndFood\\CoreAndFood.csproj",
+  "projectFilePath": "C:\\Users\\umutb\\Downloads\\CoreAndFood-main\\CoreAndFood-seed\\CoreAndFood\\CoreAndFood.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umutb\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\umutb\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

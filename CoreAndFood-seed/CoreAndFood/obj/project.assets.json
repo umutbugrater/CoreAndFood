@@ -11894,11 +11894,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\umutb\\source\\repos\\MCSD\\Youtube_MuratYücedağ\\CoreAndFood\\CoreAndFood-seed\\CoreAndFood\\CoreAndFood.csproj",
+      "projectUniqueName": "C:\\Users\\umutb\\Downloads\\CoreAndFood-main\\CoreAndFood-seed\\CoreAndFood\\CoreAndFood.csproj",
       "projectName": "CoreAndFood",
-      "projectPath": "C:\\Users\\umutb\\source\\repos\\MCSD\\Youtube_MuratYücedağ\\CoreAndFood\\CoreAndFood-seed\\CoreAndFood\\CoreAndFood.csproj",
+      "projectPath": "C:\\Users\\umutb\\Downloads\\CoreAndFood-main\\CoreAndFood-seed\\CoreAndFood\\CoreAndFood.csproj",
       "packagesPath": "C:\\Users\\umutb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\umutb\\source\\repos\\MCSD\\Youtube_MuratYücedağ\\CoreAndFood\\CoreAndFood-seed\\CoreAndFood\\obj\\",
+      "outputPath": "C:\\Users\\umutb\\Downloads\\CoreAndFood-main\\CoreAndFood-seed\\CoreAndFood\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
